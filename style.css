@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temporizador {
+    margin-top: 150px;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    padding: 20px;
+    background: gray;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background: #00d9ff;;
+}
+
+#containerReset {
+    display: flex;
+    justify-content: center;
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 50px;
+}
+
+button:hover {
+    background: #00a2ff;
+}
+
+#separador {
+    margin: 0;
+    background: #00000000;
+}
+
+#milisegundos {
+    width: 30px;
+    /* Largura fixa para o elemento */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 20px;
+    background: #00d9ff;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#segundos {
+    width: 30px;
+    /* Largura fixa para o elemento */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 20px;
+    background: #00d9ff;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#minutos {
+    width: 30px;
+    /* Largura fixa para o elemento */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 20px;
+    background: #00d9ff;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#hora {
+    width: 30px;
+    /* Largura fixa para o elemento */
+    text-align: center;
+    /* Centralizar o texto */
+    padding: 20px;
+    background: #00d9ff;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #00d9ff;
+    text-align: center;
+}
+
+small {
+    margin-top: 15px;
+    color: #00d9ff;
+    display: flex;
+    justify-content: center;
+}
+
